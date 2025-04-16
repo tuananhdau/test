@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 10px;
+}
+.search-bar {
+    display: flex;
+    flex: 1;
+    margin: 0 50px;
+    background: #f1f1f1;
+    border-radius: 30px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.search-bar input {
+    border: none;
+    background: transparent;
+    padding: 10px 15px;
+    flex: 1;
+    outline: none;
+}
+
+.search-bar i {
+    margin-left: 15px;
+    color: #555;
+}
+
+.filter-btn {
+    background: #2e9bdf;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.filter-btn i {
+    margin-right: 5px;
+}
+
+.user-cart {
+    display: flex;
+    align-items: center;
+}
+
+.user-cart i {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #2e9bdf;
+}
+
+.user {
+    margin-right: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+.user button{
+    padding: 5px 8px;
+    border-radius: 30px;
+    background-color: #2e9bdf;
+    color: #fff;
+}
+.user button:hover{
+    background-color: black;
+}
+.cart {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
