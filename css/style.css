@@ -97,3 +97,77 @@ body {
     cursor: pointer;
     position: relative;
 }
+.navbar {
+    overflow: hidden;
+    background-color: #2e9bdf;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.navbar a {
+    float: left;
+    display: block;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.subnav {
+    float: left;
+    overflow: hidden;
+    padding: 10px 10px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+.navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: #2e9bdf;
+    border-bottom: 1px solid #060707;
+    color: rgb(2, 2, 5);
+    transition: all 0.3s ease;
+  }
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color:#2e9bdf;
+    width: 100%;
+    z-index: 1;
+  }
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  .banner {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.banner video {
+    width: 100%;
+   
+}
