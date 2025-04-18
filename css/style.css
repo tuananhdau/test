@@ -134,7 +134,6 @@ body {
   }
 .navbar a:hover, .subnav:hover .subnavbtn {
     background-color: #2e9bdf;
-    border-bottom: 1px solid #060707;
     color: rgb(2, 2, 5);
     transition: all 0.3s ease;
   }
@@ -171,3 +170,36 @@ body {
     width: 100%;
    
 }
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #eaf4fb; /* giống nền trong ảnh */
+  }
+  
+  .product-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+  
+  .product-item {
+    text-align: center;
+    color: #003366;
+    min-width: 80px;
+  }
+  
+  .product-item img {
+    height: 60px;
+    margin-bottom: 10px;
+    object-fit: contain;
+  }
+  
+  .product-item p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.4;
+  }
+  
